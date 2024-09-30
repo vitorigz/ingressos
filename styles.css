@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fundo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #f87705;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ticket-list {
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    background-color: #f7f7f7; /* Cor de fundo dentro da borda */
+    text-align: center; /* Centralizar o texto */
+}
+
+.ticket-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centralizar o texto */
+}
+
+.ticket-list li {
+    margin-bottom: 10px;
+    display: inline-block; /* Exibir os itens como blocos em linha */
+    margin-right: 20px; /* Adicionar margem à direita */
+}
+
+.ticket-list h3 {
+    margin-top: 0;
+    text-align: center; /* Centralizar o texto */
+}
+
+.buy-btn {
+    background-color: #5c14d8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Exibir o botão como um bloco */
+    margin: 0 auto; /* Centralizar o botão */
+}
+
+.buy-btn:hover {
+    background-color: #444;
+}
+
+.cart {
+    margin: 2em;
+}
+
+.cart ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cart li {
+    margin-bottom: 10px;
+}
+
+#total-price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#checkout-btn {
+    background-color: #5c14d8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Exibir o botão como um bloco */
+    margin: 0 auto; /* Centralizar o botão */
+}
+
+#checkout-btn:hover {
+    background-color: #444;
+}
